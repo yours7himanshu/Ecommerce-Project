@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.offers{
+    height: 70vh;
+    width: 90vw;
+    margin: 70px;
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8a4db7, #1d4ed8);
+   
+}
+.offers-left{
+
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+    gap:15px;
+
+}
+
+.para{
+    height:40%;
+    width: 70%;
+  
+  
+}
+.para p{
+    margin-bottom: 10px;
+    color:white;
+    font-weight: 600px;
+}
+.para button{
+    height: 60px;
+    width:200px;
+    border-radius:20px;
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+    color:red;
+    cursor: pointer;
+    border: none;
+}
+
+.offers-left h1{
+    font-size: 60px;
+    width: 70%;
+    color: white;
+
+}
+
+.offers-right{
+    display: flex;
+    align-items: start;
+}
+.offers-right img{
+    height: 100%;
+    
+}

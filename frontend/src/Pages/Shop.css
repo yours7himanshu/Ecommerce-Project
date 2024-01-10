@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.error-message{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.choosingUs{
+   height: 60vh;
+   width:100vw;
+   background: linear-gradient(to right, #8a4db7, #1d4ed8);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap:20px;
+}
+.choosingUs h1{
+    color: white;
+    font-size: 60px;
+   
+}
+.choosingUs p{
+    color:white;
+    width: 80%;
+}
+
+.cards{
+    height: 100vh;
+    width:100vw;
+}
+
+.popular{
+    margin-top: 70px;
+}

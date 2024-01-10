@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.add-cart button{
+width:70px;
+height: 60px;
+background-color: orangered;
+color:white;
+}
